@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    color: white;
+    text-decoration: none;
+    &:hover{
+        color: white;
+    }
+}
+
+body{
+    font-family: 'Sansita Swashed';
+    font-family: 'Dongle', sans-serif;
+}

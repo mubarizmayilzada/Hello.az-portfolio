@@ -1,0 +1,22 @@
+{
+  "name": "hello.az-portfolio",
+  "version": "1.0.0",
+  "description": "Hello.az for artmood agency",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mubarizmayilzada/Hello.az-portfolio.git"
+  },
+  "author": "Marz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mubarizmayilzada/Hello.az-portfolio/issues"
+  },
+  "homepage": "https://github.com/mubarizmayilzada/Hello.az-portfolio#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

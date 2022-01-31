@@ -1,0 +1,533 @@
+@keyframes animateCircle2{
+    0%{
+        bottom: 15px;
+        left: 15px;
+    }
+    4%{
+        bottom: 15px;
+        left: 100px;
+    }
+    8%{
+        bottom: 50px;
+        left: 150px;
+    }
+    12%{
+        bottom: 80px;
+        left: 180px;
+    }
+    16%{
+        bottom: 80px;
+        left: 230px;
+    }
+    20%{
+        bottom: 110px;
+        left: 250px;
+    }
+    24%{
+        bottom: 130px;
+        left: 270px;
+    }
+    28%{
+        bottom: 160px;
+        left: 300px;
+    }
+    32%{
+        bottom: 200px;
+        left: 300px;
+    }
+    36%{
+        bottom: 220px;
+        left: 330px;
+    }
+    40%{
+        bottom: 250px;
+        left: 350px;
+    }
+    44%{
+        bottom: 300px;
+        left: 400px;
+    }
+    48%{
+        bottom: 350px;
+        left: 400px;
+    }
+    52%{
+        bottom: 400px;
+        left: 440px;
+    }
+    56%{
+        bottom: 400px;
+        left: 500px;
+    }
+    60%{
+        bottom: 450px;
+        left: 520px;
+    }
+    64%{
+        bottom: 500px;
+        left: 550px;
+    }
+    68%{
+        bottom: 530px;
+        left: 550px;
+    }
+    72%{
+        bottom: 600px;
+        left: 570px;
+    }
+    76%{
+        bottom: 730px;
+        left: 600px;
+    }
+    80%{
+        bottom: 450px;
+        left: 600px;
+    }
+    84%{
+        bottom: 450px;
+        left: 430px;
+    }
+    88%{
+        bottom: 750px;
+        left: 470px;
+    }
+    92%{
+        bottom: 780px;
+        left: 600px;
+    }
+    96%{
+        bottom: 800px;
+        left: 630px;
+    }
+    100%{
+        bottom: 870px;
+        left: 700px;
+    }
+
+}
+
+@keyframes animateCircle3{
+    0%{
+        bottom: 15px;
+        right: 15px;
+    }
+    4%{
+        top: 15px;
+        right: 100px;
+    }
+    8%{
+        top: 50px;
+        right: 150px;
+    }
+    12%{
+        top: 80px;
+        right: 180px;
+    }
+    16%{
+        top: 80px;
+        right: 230px;
+    }
+    20%{
+        top: 110px;
+        right: 250px;
+    }
+    24%{
+        top: 130px;
+        right: 270px;
+    }
+    28%{
+        top: 160px;
+        right: 300px;
+    }
+    32%{
+        top: 200px;
+        right: 300px;
+    }
+    36%{
+        top: 220px;
+        right: 330px;
+    }
+    40%{
+        top: 250px;
+        right: 350px;
+    }
+    44%{
+        top: 300px;
+        right: 400px;
+    }
+    48%{
+        top: 350px;
+        right: 400px;
+    }
+    52%{
+        top: 400px;
+        right: 440px;
+    }
+    56%{
+        top: 400px;
+        right: 500px;
+    }
+    60%{
+        top: 450px;
+        right: 520px;
+    }
+    64%{
+        top: 500px;
+        right: 550px;
+    }
+    68%{
+        top: 530px;
+        right: 550px;
+    }
+    72%{
+        top: 600px;
+        right: 570px;
+    }
+    76%{
+        top: 730px;
+        right: 600px;
+    }
+    80%{
+        top: 450px;
+        right: 600px;
+    }
+    84%{
+        top: 450px;
+        right: 430px;
+    }
+    88%{
+        top: 750px;
+        right: 470px;
+    }
+    92%{
+        top: 780px;
+        right: 600px;
+    }
+    96%{
+        top: 800px;
+        right: 630px;
+    }
+    100%{
+        top: 870px;
+        right: 700px;
+    }
+
+}
+
+@keyframes animateCircle4{
+    0%{
+        bottom: 15px;
+        right: 15px;
+    }
+    4%{
+        bottom: 15px;
+        right: 100px;
+    }
+    8%{
+        bottom: 50px;
+        right: 150px;
+    }
+    12%{
+        bottom: 80px;
+        right: 180px;
+    }
+    16%{
+        bottom: 80px;
+        right: 230px;
+    }
+    20%{
+        bottom: 110px;
+        right: 250px;
+    }
+    24%{
+        bottom: 130px;
+        right: 270px;
+    }
+    28%{
+        bottom: 160px;
+        right: 300px;
+    }
+    32%{
+        bottom: 200px;
+        right: 300px;
+    }
+    36%{
+        bottom: 220px;
+        right: 330px;
+    }
+    40%{
+        bottom: 250px;
+        right: 350px;
+    }
+    44%{
+        bottom: 300px;
+        right: 400px;
+    }
+    48%{
+        bottom: 350px;
+        right: 400px;
+    }
+    52%{
+        bottom: 400px;
+        right: 440px;
+    }
+    56%{
+        bottom: 400px;
+        right: 500px;
+    }
+    60%{
+        bottom: 450px;
+        right: 520px;
+    }
+    64%{
+        bottom: 500px;
+        right: 550px;
+    }
+    68%{
+        bottom: 530px;
+        right: 550px;
+    }
+    72%{
+        bottom: 600px;
+        right: 570px;
+    }
+    76%{
+        bottom: 730px;
+        right: 600px;
+    }
+    80%{
+        bottom: 450px;
+        right: 600px;
+    }
+    84%{
+        bottom: 450px;
+        right: 430px;
+    }
+    88%{
+        bottom: 750px;
+        right: 470px;
+    }
+    92%{
+        bottom: 780px;
+        right: 600px;
+    }
+    96%{
+        bottom: 800px;
+        right: 630px;
+    }
+    100%{
+        bottom: 870px;
+        right: 700px;
+    }
+
+}
+
+
+// @keyframes animateCircleborder1{
+//     0%{
+//         bottom: 23px;
+//         left: 15px;
+//     }
+//     5%{
+//         bottom: 100px;
+//         left: 15px;
+//     }
+//     10%{
+//         bottom: 200px;
+//         left: 15px;
+//     }
+//     15%{
+//         bottom: 300px;
+//         left: 15px;
+//     }
+//     20%{
+//         bottom: 400px;
+//         left: 15px;
+//     }
+//     25%{
+//         bottom: 500px;
+//         left: 15px;
+//     }
+//     30%{
+//         bottom: 600px;
+//         left: 15px;
+//     }
+//     35%{
+//         bottom: 700px;
+//         left: 15px;
+//     }
+//     40%{
+//         bottom: 700px;
+//         left: 100px;
+//     }
+//     45%{
+//         bottom: 700px;
+//         left: 200px;
+//     }
+//     50%{
+//         bottom: 700px;
+//         left: 300px;
+//     }
+//     55%{
+//         bottom: 700px;
+//         left: 400px;
+//     }
+//     60%{
+//         bottom: 700px;
+//         left: 500px;
+//     }
+//     65%{
+//         bottom: 700px;
+//         left: 600px;
+//     }
+//     70%{
+//         bottom: 700px;
+//         left: 700px;
+//     }
+//     75%{
+//         bottom: 700px;
+//         left: 800px;
+//     }
+//     80%{
+//         bottom: 700px;
+//         left: 900px;
+//     }
+//     85%{
+//         bottom: 700px;
+//         left: 1000px;
+//     }
+//     90%{
+//         bottom: 700px;
+//         left: 1100px;
+//     }
+//     95%{
+//         bottom: 700px;
+//         left: 1200px;
+//     }
+//     96%{
+//         bottom: 700px;
+//         left: 1300px;
+//     }
+//     97%{
+//         bottom: 700px;
+//         left: 1330px;
+//     }
+//     98%{
+//         bottom: 700px;
+//         left: 1370px;
+//     }
+//     99%{
+//         bottom: 700px;
+//         left: 1400px;
+//     }
+//     100%{
+//         bottom: 700px;
+//         left: 1480px;
+//     }
+
+// }
+
+
+// @keyframes animateCircleborder2{
+//     0%{
+//         top: 23px;
+//         right: 15px;
+//     }
+//     5%{
+//         top: 100px;
+//         right: 15px;
+//     }
+//     10%{
+//         top: 200px;
+//         right: 15px;
+//     }
+//     15%{
+//         top: 300px;
+//         right: 15px;
+//     }
+//     20%{
+//         top: 400px;
+//         right: 15px;
+//     }
+//     25%{
+//         top: 500px;
+//         right: 15px;
+//     }
+//     30%{
+//         top: 600px;
+//         right: 15px;
+//     }
+//     35%{
+//         top: 700px;
+//         right: 15px;
+//     }
+//     40%{
+//         top: 700px;
+//         right: 100px;
+//     }
+//     45%{
+//         top: 700px;
+//         right: 200px;
+//     }
+//     50%{
+//         top: 700px;
+//         right: 300px;
+//     }
+//     55%{
+//         top: 700px;
+//         right: 400px;
+//     }
+//     60%{
+//         top: 700px;
+//         right: 500px;
+//     }
+//     65%{
+//         top: 700px;
+//         right: 600px;
+//     }
+//     70%{
+//         top: 700px;
+//         right: 700px;
+//     }
+//     75%{
+//         top: 700px;
+//         right: 800px;
+//     }
+//     80%{
+//         top: 700px;
+//         right: 900px;
+//     }
+//     85%{
+//         top: 700px;
+//         right: 1000px;
+//     }
+//     90%{
+//         top: 700px;
+//         right: 1100px;
+//     }
+//     95%{
+//         top: 700px;
+//         right: 1200px;
+//     }
+//     96%{
+//         top: 700px;
+//         right: 1300px;
+//     }
+//     97%{
+//         top: 700px;
+//         right: 1330px;
+//     }
+//     98%{
+//         top: 700px;
+//         right: 1370px;
+//     }
+//     99%{
+//         top: 700px;
+//         right: 1400px;
+//     }
+//     100%{
+//         top: 700px;
+//         right: 1480px;
+//     }
+
+// }
