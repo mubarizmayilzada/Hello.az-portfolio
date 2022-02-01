@@ -622,7 +622,8 @@ body {
         background-color: white;
         border-radius: 13px; }
         .wrappering-websitedev .content-websitedev ul li .imgbox img {
-          width: 100px; }
+          width: 100px;
+          height: 100px; }
       .wrappering-websitedev .content-websitedev ul li .contentbox {
         margin-left: 20px; }
         .wrappering-websitedev .content-websitedev ul li .contentbox h2 {
