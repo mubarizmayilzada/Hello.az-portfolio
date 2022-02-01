@@ -322,7 +322,7 @@ body {
           color: white; }
         .wrappering-section .contact .wrapper-contact #form .form-control.success input {
           border: 1px solid green;
-          background: transparent !important; }
+          background-color: white !important; }
         .wrappering-section .contact .wrapper-contact #form .form-control.success small {
           color: white;
           display: none !important;
@@ -357,7 +357,11 @@ body {
           outline: none;
           border-radius: 10px; }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1400px) {
+  .wrapper-contact {
+    margin: 0px !important; } }
+
+@media screen and (max-width: 1199.5px) {
   .wrapper-contact #form {
     width: 100% !important; }
     .wrapper-contact #form input, .wrapper-contact #form textarea {
@@ -365,6 +369,14 @@ body {
   .wrapper-contact img {
     margin: auto;
     margin-top: 15px; } }
+
+@media screen and (max-width: 550px) {
+  .wrapper-contact #form {
+    width: 100% !important; }
+    .wrapper-contact #form input, .wrapper-contact #form textarea {
+      width: 100% !important; }
+  .wrapper-contact img {
+    width: 400px !important; } }
 
 @media screen and (max-width: 426px) {
   .wrapper-contact {

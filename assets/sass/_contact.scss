@@ -81,13 +81,13 @@
                     .form-control.success{
                         input{
                             border: 1px solid green;
-                            background: transparent !important;
+                            background-color: white !important;
                         }
                         small{
                             color: white;
                             display: none !important;
-                        font-size: 13px;
-                        margin-top: 0 !important;
+                            font-size: 13px;
+                            margin-top: 0 !important;
     
                         }
                     }
@@ -133,9 +133,13 @@
         }
 }
 
+@media screen and (max-width: 1400px) {
+    .wrapper-contact{
+        margin: 0px !important;
+    }
+}
 
-
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1199.5px) {
     .wrapper-contact{
         #form{
             width: 100% !important;
@@ -149,6 +153,20 @@
         }
     }
 
+}
+
+@media screen and (max-width: 550px) {
+    .wrapper-contact{
+        #form{
+            width: 100% !important;
+            input,textarea{
+                width: 100% !important;
+            }
+        }
+        img{
+            width: 400px !important;
+        }
+    }
 }
 
 @media screen and (max-width: 426px) {
