@@ -254,7 +254,7 @@ body {
     right: 700px; } }
 
 .wrappering-section {
-  background-color: #BC6FF1;
+  background-color: #892CDC;
   width: 100%;
   height: 100%;
   padding: 10px 0; }
@@ -292,7 +292,7 @@ body {
         box-shadow: 0px 0px 10px 1px #888888;
         border-radius: 30px;
         padding: 50px;
-        background-color: #BC6FF1; }
+        background-color: #892CDC; }
         .wrappering-section .contact .wrapper-contact #form h2 {
           width: 100%;
           text-align: center;
@@ -352,7 +352,7 @@ body {
           background-color: yellow;
           font-size: 18px;
           font-weight: 600;
-          color: #BC6FF1;
+          color: #892CDC;
           border: none;
           outline: none;
           border-radius: 10px; }
@@ -563,3 +563,129 @@ body {
 @media screen and (max-width: 426px) {
   .container-custom {
     margin-top: 25px !important; } }
+
+.wrappering-websitedev {
+  font-family: 'Poppins', sans-serif;
+  background-color: #892CDC;
+  display: flex;
+  justify-content: center;
+  align-self: center; }
+  .wrappering-websitedev .websitedev {
+    position: relative;
+    margin: 30px 0;
+    background-color: white;
+    box-shadow: 0px 0px 20px 1px #888888;
+    border-radius: 30px;
+    width: 94%; }
+    .wrappering-websitedev .websitedev a .logo-background {
+      width: 65px;
+      height: 30px;
+      background-color: #52057B;
+      position: absolute;
+      top: 30px;
+      right: 27px; }
+    .wrappering-websitedev .websitedev a .hello-logo {
+      width: 80px;
+      position: absolute;
+      top: 20px;
+      right: 20px; }
+    .wrappering-websitedev .websitedev .head-content {
+      margin: 50px 0;
+      width: 100%;
+      text-align: center; }
+      .wrappering-websitedev .websitedev .head-content h1 {
+        font-weight: 700;
+        font-size: 35px;
+        letter-spacing: 2px;
+        font-family: 'Sansita Swashed';
+        color: white;
+        -webkit-text-stroke: 1px #892CDC;
+        margin: 0px;
+        padding: 0px;
+        line-height: 100%; }
+  .wrappering-websitedev .content-websitedev ul {
+    padding: 0px; }
+    .wrappering-websitedev .content-websitedev ul li {
+      padding: 25px 50px;
+      background-color: #892CDC;
+      border-radius: 13px;
+      margin: 30px 0px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .wrappering-websitedev .content-websitedev ul li .imgbox {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        padding: 10px;
+        background-color: white;
+        border-radius: 13px; }
+        .wrappering-websitedev .content-websitedev ul li .imgbox img {
+          width: 100px; }
+      .wrappering-websitedev .content-websitedev ul li .contentbox {
+        margin-left: 20px; }
+        .wrappering-websitedev .content-websitedev ul li .contentbox h2 {
+          color: yellow;
+          font-size: 28px;
+          font-weight: 500; }
+        .wrappering-websitedev .content-websitedev ul li .contentbox p {
+          color: white;
+          font-size: 14px; }
+  .wrappering-websitedev .content-websitedev .contact-div {
+    margin: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black; }
+    .wrappering-websitedev .content-websitedev .contact-div p i {
+      padding-left: 5px;
+      margin-right: 7px;
+      color: #892CDC; }
+    .wrappering-websitedev .content-websitedev .contact-div p a {
+      display: inline-block;
+      padding: 15px;
+      background-color: yellow;
+      border-radius: 8px;
+      color: black; }
+
+@media screen and (max-width: 768px) {
+  .content-websitedev ul {
+    padding: 0px !important; }
+    .content-websitedev ul li {
+      flex-wrap: wrap; }
+      .content-websitedev ul li .imgbox {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        padding: 10px;
+        background-color: white;
+        border-radius: 13px; }
+        .content-websitedev ul li .imgbox img {
+          width: 100px; }
+      .content-websitedev ul li .contentbox {
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 0px !important; }
+        .content-websitedev ul li .contentbox h2 {
+          color: yellow;
+          font-size: 28px;
+          font-weight: 500; }
+        .content-websitedev ul li .contentbox p {
+          color: white;
+          font-size: 14px; } }
+
+@media screen and (max-width: 385px) {
+  .contact-div {
+    width: 100% !important; }
+    .contact-div p {
+      width: 100% !important; }
+      .contact-div p a {
+        width: 100% !important; } }
+
+@media screen and (max-width: 580px) {
+  .websitedev .head-content {
+    margin-top: 85px !important; } }
