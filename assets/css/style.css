@@ -253,14 +253,141 @@ body {
     bottom: 870px;
     right: 700px; } }
 
-body {
+.wrappering-section {
+  background-color: #BC6FF1;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0; }
+  .wrappering-section .contact {
+    position: relative;
+    box-shadow: 0px 0px 20px 1px #888888;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px auto;
+    padding: 50px 0;
+    width: 96%; }
+    .wrappering-section .contact a .logo-background {
+      width: 65px;
+      height: 30px;
+      background-color: #52057B;
+      position: absolute;
+      top: 30px;
+      right: 27px; }
+    .wrappering-section .contact a .hello-logo {
+      width: 80px;
+      position: absolute;
+      top: 20px;
+      right: 20px; }
+    .wrappering-section .contact .wrapper-contact {
+      flex-wrap: wrap;
+      margin: 0px 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .wrappering-section .contact .wrapper-contact #form {
+        box-shadow: 0px 0px 10px 1px #888888;
+        border-radius: 30px;
+        padding: 50px;
+        background-color: #BC6FF1; }
+        .wrappering-section .contact .wrapper-contact #form h2 {
+          width: 100%;
+          text-align: center;
+          font-weight: 600;
+          font-size: 30px;
+          color: yellow;
+          margin-bottom: 15px; }
+        .wrappering-section .contact .wrapper-contact #form .form-control {
+          border: none;
+          padding: 0;
+          margin: 0;
+          margin-bottom: 15px;
+          border-radius: 8px;
+          background-color: transparent; }
+          .wrappering-section .contact .wrapper-contact #form .form-control small {
+            color: #e74c3c;
+            font-size: 11px;
+            margin-top: 5px;
+            margin-left: 10px;
+            display: none; }
+        .wrappering-section .contact .wrapper-contact #form .form-control.error input {
+          border: 2px solid yellow; }
+        .wrappering-section .contact .wrapper-contact #form .form-control.error small {
+          margin-top: 0 !important;
+          display: block !important;
+          font-size: 13px;
+          color: white; }
+        .wrappering-section .contact .wrapper-contact #form .form-control.success input {
+          border: 1px solid green;
+          background: transparent !important; }
+        .wrappering-section .contact .wrapper-contact #form .form-control.success small {
+          color: white;
+          display: none !important;
+          font-size: 13px;
+          margin-top: 0 !important; }
+        .wrappering-section .contact .wrapper-contact #form label {
+          display: block;
+          margin: 0px;
+          padding: 0px; }
+        .wrappering-section .contact .wrapper-contact #form input, .wrappering-section .contact .wrapper-contact #form textarea {
+          background: white;
+          display: block;
+          padding: 10px;
+          border: none;
+          border-radius: 8px;
+          outline: none;
+          width: 460px;
+          resize: none;
+          font-size: 15px;
+          color: #999999; }
+          .wrappering-section .contact .wrapper-contact #form input::placeholder, .wrappering-section .contact .wrapper-contact #form textarea::placeholder {
+            font-size: 14px;
+            color: #999999; }
+        .wrappering-section .contact .wrapper-contact #form button {
+          padding: 10px 20px;
+          width: 100%;
+          background-color: yellow;
+          font-size: 18px;
+          font-weight: 600;
+          color: #BC6FF1;
+          border: none;
+          outline: none;
+          border-radius: 10px; }
+
+@media screen and (max-width: 1025px) {
+  .wrapper-contact #form {
+    width: 100% !important; }
+    .wrapper-contact #form input, .wrapper-contact #form textarea {
+      width: 100% !important; }
+  .wrapper-contact img {
+    margin: auto;
+    margin-top: 15px; } }
+
+@media screen and (max-width: 426px) {
+  .wrapper-contact {
+    margin: 0px !important;
+    margin-top: 60px !important; }
+    .wrapper-contact #form {
+      padding: 30px 10px !important;
+      width: 100% !important; }
+      .wrapper-contact #form input, .wrapper-contact #form textarea {
+        width: 100% !important; }
+    .wrapper-contact img {
+      width: 100% !important;
+      margin: auto;
+      margin-top: 15px; } }
+
+.body {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
   width: 100%;
   position: relative; }
-  body .content-wrapper {
+  .body .content-wrapper {
     margin: 10px 0;
     position: relative;
     height: 96%;
@@ -268,7 +395,7 @@ body {
     border-radius: 50px;
     background-color: #892CDC;
     box-shadow: 0px 0px 20px 1px #888888; }
-  body .main-section {
+  .body .main-section {
     position: absolute;
     overflow: hidden;
     height: 100%;
@@ -276,7 +403,7 @@ body {
     border-radius: 50px;
     background-color: #892CDC;
     box-shadow: 0px 0px 20px 1px #888888; }
-    body .main-section .design-circle-2 {
+    .body .main-section .design-circle-2 {
       z-index: 1;
       width: 20px;
       height: 20px;
@@ -288,7 +415,7 @@ body {
       animation-name: animateCircle2;
       animation-duration: 20s;
       animation-iteration-count: infinite; }
-    body .main-section .design-circle-3 {
+    .body .main-section .design-circle-3 {
       z-index: 1;
       width: 35px;
       height: 35px;
@@ -300,7 +427,7 @@ body {
       animation-name: animateCircle3;
       animation-duration: 15s;
       animation-iteration-count: infinite; }
-    body .main-section .design-circle-4 {
+    .body .main-section .design-circle-4 {
       z-index: 1;
       width: 28px;
       height: 28px;
@@ -313,7 +440,7 @@ body {
       animation-delay: 5s;
       animation-duration: 10s;
       animation-iteration-count: infinite; }
-    body .main-section .design-circle-1 {
+    .body .main-section .design-circle-1 {
       z-index: 1;
       width: 400px;
       height: 400px;
@@ -322,41 +449,41 @@ body {
       position: absolute;
       top: -145px;
       left: -60px; }
-  body header {
+  .body header {
     padding: 0px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center; }
-    body header a {
+    .body header a {
       font-size: 30px;
       z-index: 4; }
-      body header a::selection {
+      .body header a::selection {
         background: transparent; }
-    body header .main-logo {
+    .body header .main-logo {
       z-index: 4;
       padding-top: 35px; }
-      body header .main-logo img {
+      .body header .main-logo img {
         width: 80px;
         transition: all 1s ease;
         z-index: 2; }
-        body header .main-logo img::selection {
+        .body header .main-logo img::selection {
           background: transparent; }
-        body header .main-logo img:hover {
+        .body header .main-logo img:hover {
           transform: rotate(360deg); }
-  body main {
+  .body main {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: transparent;
     padding-bottom: 50px; }
-    body main .container-custom {
+    .body main .container-custom {
       display: flex;
       justify-content: center;
       align-items: center;
       max-width: 1200px;
       flex-wrap: wrap;
       z-index: 3; }
-      body main .container-custom .card {
+      .body main .container-custom .card {
         position: relative;
         width: 280px;
         height: 250px;
@@ -371,11 +498,11 @@ body {
         border-top: 1px solid rgba(225, 225, 225, 0.5);
         border-left: 1px solid rgba(225, 225, 225, 0.5);
         backdrop-filter: blur(5px); }
-        body main .container-custom .card .content {
+        .body main .container-custom .card .content {
           padding: 20px;
           text-align: center;
           transition: 0.5s; }
-          body main .container-custom .card .content h2 {
+          .body main .container-custom .card .content h2 {
             z-index: -2;
             position: absolute;
             top: -30px;
@@ -383,9 +510,9 @@ body {
             font-size: 8em;
             color: rgba(81, 5, 122, 0.199);
             pointer-events: none; }
-            body main .container-custom .card .content h2::selection {
+            .body main .container-custom .card .content h2::selection {
               background: transparent; }
-          body main .container-custom .card .content h3 {
+          .body main .container-custom .card .content h3 {
             margin: auto;
             width: 100px;
             margin-top: 20px;
@@ -393,10 +520,10 @@ body {
             color: yellow;
             z-index: 6;
             font-family: 'Sansita Swashed'; }
-            body main .container-custom .card .content h3::selection {
+            .body main .container-custom .card .content h3::selection {
               color: yellow;
               background: rgba(255, 255, 0, 0.137); }
-          body main .container-custom .card .content p {
+          .body main .container-custom .card .content p {
             height: 100px;
             overflow: hidden;
             padding-top: 15px;
@@ -404,17 +531,23 @@ body {
             color: white;
             font-weight: 300;
             line-height: 18px; }
-            body main .container-custom .card .content p::selection {
+            .body main .container-custom .card .content p::selection {
               color: yellow;
               background: rgba(255, 255, 0, 0.137); }
-          body main .container-custom .card .content a {
+          .body main .container-custom .card .content a {
             display: inline-block;
             margin-top: 15px;
             color: #52057B;
             font-weight: 700;
-            font-size: 21px; }
-            body main .container-custom .card .content a:hover {
-              text-shadow: 0px 0px 5px 5px yellow; }
-            body main .container-custom .card .content a::selection {
+            font-size: 21px;
+            transition: all .5s ease; }
+            .body main .container-custom .card .content a:hover {
+              text-shadow: 0px 0px 0px purple;
+              color: yellow; }
+            .body main .container-custom .card .content a::selection {
               color: yellow;
               background: rgba(255, 255, 0, 0.137); }
+
+@media screen and (max-width: 426px) {
+  .container-custom {
+    margin-top: 25px !important; } }
