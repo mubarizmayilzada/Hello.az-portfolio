@@ -42,9 +42,6 @@ a {
   text-decoration: none;
   display: inline-block; }
 
-html {
-  font-size: 62.5%; }
-
 body {
   box-sizing: border-box; }
 
@@ -764,23 +761,23 @@ body {
       border-radius: 8px;
       color: black; }
 
-main {
+.website-dev-main main {
   width: 100%;
   height: 100vh; }
-  main .start-page {
+  .website-dev-main main .start-page {
     position: relative;
     width: 100%;
     height: 100vh; }
-    main .start-page .main-mac {
+    .website-dev-main main .start-page .main-mac {
       display: block;
       width: 680px;
       position: absolute;
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%); }
-      main .start-page .main-mac .mockup {
+      .website-dev-main main .start-page .main-mac .mockup {
         width: 100%; }
-      main .start-page .main-mac .mockup-img {
+      .website-dev-main main .start-page .main-mac .mockup-img {
         display: block;
         position: absolute;
         left: 50%;
@@ -800,16 +797,16 @@ main {
         padding-right: 0px;
         padding-left: 0px;
         right: 0px; }
-    main .start-page .main-tablet {
+    .website-dev-main main .start-page .main-tablet {
       display: none;
       width: 370px;
       position: absolute;
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%); }
-      main .start-page .main-tablet .mockup {
+      .website-dev-main main .start-page .main-tablet .mockup {
         width: 100%; }
-      main .start-page .main-tablet .mockup-img-tablet {
+      .website-dev-main main .start-page .main-tablet .mockup-img-tablet {
         display: none;
         position: absolute;
         left: 51%;
@@ -817,16 +814,16 @@ main {
         transform: translate(-50%, -50%);
         width: 100%;
         padding: 21px; }
-    main .start-page .main-phone {
+    .website-dev-main main .start-page .main-phone {
       display: none;
       width: 250px;
       position: absolute;
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%); }
-      main .start-page .main-phone .mockup {
+      .website-dev-main main .start-page .main-phone .mockup {
         width: 100%; }
-      main .start-page .main-phone .mockup-img-phone {
+      .website-dev-main main .start-page .main-phone .mockup-img-phone {
         display: none;
         position: absolute;
         left: 51%;
@@ -846,17 +843,17 @@ main {
       display: block; } }
 
 @media screen and (max-width: 425px) {
-  main .start-page .main-mac {
+  .website-dev-main main .start-page .main-mac {
     display: none; }
-    main .start-page .main-mac .mockup-img {
+    .website-dev-main main .start-page .main-mac .mockup-img {
       display: none; }
-  main .start-page .main-tablet {
+  .website-dev-main main .start-page .main-tablet {
     display: none; }
-    main .start-page .main-tablet .mockup-img-tablet {
+    .website-dev-main main .start-page .main-tablet .mockup-img-tablet {
       display: none; }
-  main .start-page .main-phone {
+  .website-dev-main main .start-page .main-phone {
     display: block; }
-    main .start-page .main-phone .mockup-img-phone {
+    .website-dev-main main .start-page .main-phone .mockup-img-phone {
       display: block; } }
 
 @media screen and (max-width: 768px) {
