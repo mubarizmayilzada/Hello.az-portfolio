@@ -1,3 +1,91 @@
+
+
+  .owl-stage-outer{
+      height: 100% !important;
+  }
+ 
+  .owl-carousel{
+      img{
+          left: 0 !important;
+      }
+  }
+  
+
+  
+.main-tablet{
+    .owl-stage-outer{
+        width: 330px;
+    margin-left: 22px;
+    }
+    .owl-stage{
+        height: 100%;
+    }
+    .owl-carousel{
+        position: absolute !important;
+        top: 0 !important;
+        height: 100%;
+    }
+    .owl-item{
+        height: 100% !important;
+        .item{
+        height: 100%;
+
+            img{
+                height: 100%;
+                width: 337px !important;
+                padding: 55px 0px 65px 0px !important;
+                left: 45% !important;
+            }
+        }
+    }
+}
+
+.owl-nav,
+.owl-dots{
+    display: none;
+}
+
+
+.main-phone{
+    .owl-stage{
+        height: 100%;
+    }
+    .owl-carousel{
+        position: absolute !important;
+        top: 0 !important;
+        height: 100%;
+    }
+    .owl-item{
+        height: 100% !important;
+        .item{
+        height: 100%;
+
+            img{
+                height: 100%;
+                padding: 55px 0px 65px 3px !important;
+                left: 49% !important;
+            }
+        }
+    }
+}
+
+.main-phone{
+    .owl-carousel{
+        width: 210px;
+        margin-left: 20px;
+    .item{
+        img{
+            height: 493px;
+            margin-top: 4px;
+            width: 245px;
+            margin-left: 0px;
+            padding: 55px 0px 65px 3px !important;
+
+        }
+    }
+    }
+}
+
 .wrappering-websitedev{
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
@@ -137,6 +225,18 @@ main{
                 width: 100%;
                 height: 100%;
                 padding: 85px 25px;
+
+                position: absolute;
+                left: 30px;
+                transform: translateX(0%);
+                padding-top: 0px;
+                top: 15px;
+                height: 410px;
+                width: 620px;
+                padding-bottom: 0px;
+                padding-right: 0px;
+                padding-left: 0px;
+                right: 0px;
             }
         }
 

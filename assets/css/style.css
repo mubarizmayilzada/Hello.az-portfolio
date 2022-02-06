@@ -1,3 +1,56 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  color: white;
+  text-decoration: none;
+  display: inline-block; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+li {
+  list-style: none; }
+
 * {
   padding: 0px;
   margin: 0px;
@@ -564,6 +617,65 @@ body {
   .container-custom {
     margin-top: 25px !important; } }
 
+.owl-stage-outer {
+  height: 100% !important; }
+
+.owl-carousel img {
+  left: 0 !important; }
+
+.main-tablet .owl-stage-outer {
+  width: 330px;
+  margin-left: 22px; }
+
+.main-tablet .owl-stage {
+  height: 100%; }
+
+.main-tablet .owl-carousel {
+  position: absolute !important;
+  top: 0 !important;
+  height: 100%; }
+
+.main-tablet .owl-item {
+  height: 100% !important; }
+  .main-tablet .owl-item .item {
+    height: 100%; }
+    .main-tablet .owl-item .item img {
+      height: 100%;
+      width: 337px !important;
+      padding: 55px 0px 65px 0px !important;
+      left: 45% !important; }
+
+.owl-nav,
+.owl-dots {
+  display: none; }
+
+.main-phone .owl-stage {
+  height: 100%; }
+
+.main-phone .owl-carousel {
+  position: absolute !important;
+  top: 0 !important;
+  height: 100%; }
+
+.main-phone .owl-item {
+  height: 100% !important; }
+  .main-phone .owl-item .item {
+    height: 100%; }
+    .main-phone .owl-item .item img {
+      height: 100%;
+      padding: 55px 0px 65px 3px !important;
+      left: 49% !important; }
+
+.main-phone .owl-carousel {
+  width: 210px;
+  margin-left: 20px; }
+  .main-phone .owl-carousel .item img {
+    height: 493px;
+    margin-top: 4px;
+    width: 245px;
+    margin-left: 0px;
+    padding: 55px 0px 65px 3px !important; }
+
 .wrappering-websitedev {
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
@@ -676,7 +788,18 @@ main {
         transform: translate(-50%, -50%);
         width: 100%;
         height: 100%;
-        padding: 85px 25px; }
+        padding: 85px 25px;
+        position: absolute;
+        left: 30px;
+        transform: translateX(0%);
+        padding-top: 0px;
+        top: 15px;
+        height: 410px;
+        width: 620px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        right: 0px; }
     main .start-page .main-tablet {
       display: none;
       width: 370px;
