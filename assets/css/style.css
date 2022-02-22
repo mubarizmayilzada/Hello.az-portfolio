@@ -834,27 +834,13 @@ body {
 
 @media screen and (max-width: 768px) {
   main .start-page .main-mac {
-    display: none; }
+    display: none !important; }
     main .start-page .main-mac .mockup-img {
-      display: none; }
+      display: none !important; }
   main .start-page .main-tablet {
-    display: block; }
+    display: block !important; }
     main .start-page .main-tablet .mockup-img-tablet {
-      display: block; } }
-
-@media screen and (max-width: 425px) {
-  .website-dev-main main .start-page .main-mac {
-    display: none; }
-    .website-dev-main main .start-page .main-mac .mockup-img {
-      display: none; }
-  .website-dev-main main .start-page .main-tablet {
-    display: none; }
-    .website-dev-main main .start-page .main-tablet .mockup-img-tablet {
-      display: none; }
-  .website-dev-main main .start-page .main-phone {
-    display: block; }
-    .website-dev-main main .start-page .main-phone .mockup-img-phone {
-      display: block; } }
+      display: block !important; } }
 
 @media screen and (max-width: 768px) {
   .content-websitedev ul {
@@ -883,6 +869,20 @@ body {
         .content-websitedev ul li .contentbox p {
           color: white;
           font-size: 14px; } }
+
+@media screen and (max-width: 425px) {
+  .website-dev-main main .start-page .main-mac {
+    display: none !important; }
+    .website-dev-main main .start-page .main-mac .mockup-img {
+      display: none !important; }
+  .website-dev-main main .start-page .main-tablet {
+    display: none !important; }
+    .website-dev-main main .start-page .main-tablet .mockup-img-tablet {
+      display: none !important; }
+  .website-dev-main main .start-page .main-phone {
+    display: block !important; }
+    .website-dev-main main .start-page .main-phone .mockup-img-phone {
+      display: block !important; } }
 
 @media screen and (max-width: 385px) {
   .contact-div {

@@ -299,49 +299,22 @@
     main{
         .start-page{
             .main-mac{
-                display: none;
+                display: none !important;
                 .mockup-img{
-                    display: none;
+                    display: none !important;
                 }
             }
     
             .main-tablet{
-                display: block;
+                display: block !important;
                 .mockup-img-tablet{
-                    display: block;
+                    display: block !important;
                 }
             }
         }
     }
 }
-@media screen and (max-width: 425px) {
-    .website-dev-main{
-    main{
-        .start-page{
-            .main-mac{
-                display: none;
-                .mockup-img{
-                    display: none;
-                }
-            }
-    
-            .main-tablet{
-                display: none;
-                .mockup-img-tablet{
-                    display: none;
-                }
-            }
 
-            .main-phone{
-                display: block;
-                .mockup-img-phone{
-                    display: block;
-                }
-            }
-        }
-    }
-}
-}
 @media screen and (max-width: 768px) {
     .content-websitedev{
         ul{
@@ -381,7 +354,34 @@
     }
 }
 
+@media screen and (max-width: 425px) {
+    .website-dev-main{
+    main{
+        .start-page{
+            .main-mac{
+                display: none !important;
+                .mockup-img{
+                    display: none !important;
+                }
+            }
+    
+            .main-tablet{
+                display: none !important;
+                .mockup-img-tablet{
+                    display: none !important;
+                }
+            }
 
+            .main-phone{
+                display: block !important;
+                .mockup-img-phone{
+                    display: block !important;
+                }
+            }
+        }
+    }
+}
+}
 
 @media screen and (max-width: 385px) {
     .contact-div{
